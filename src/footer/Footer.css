@@ -1,0 +1,22 @@
+.footer {
+  width: 100%;
+  color: rgb(182, 182, 182);
+}
+
+.footer_container {
+  width: 100%;
+  height: 40px;
+  align-items: center;
+  display: flex;
+  background-color: rgb(21, 24, 18);
+  justify-content: space-around;
+}
+
+.footer_pack2 {
+  margin-left: 40%;
+}
+
+.footer_pack1 {
+  margin-right: 20%;
+  flex-direction: column;
+}

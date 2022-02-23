@@ -1,0 +1,25 @@
+.event_container {
+  width: 100%;
+  height: 300px;
+  align-items: center;
+  background-color: white;
+}
+
+.event {
+  width: 100%;
+  margin-top: auto;
+}
+.event_head {
+  color: #D85B01;
+  margin-right: 10%;
+  margin-left: 10%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.eventpara {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10%;
+  margin-left: 10%;
+}

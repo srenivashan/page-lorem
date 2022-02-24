@@ -3,6 +3,7 @@ import ReadPara from './ReadPara'
 import './Read.css'
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 import logo from '../../asstes/img/shape.jpg'
+import { Grid } from '@mui/material'
 
 function read() {
     return (
@@ -16,8 +17,10 @@ function read() {
                 <h4 className='arrow_read'>Read More</h4>
                 </div>
                 </div>
-                <div className='logo_fly'>
-                  <img src = {logo} alt = 'hexa_img'/>
+                <div>
+                  <Grid item xs={3} sm={3} md={3} lg={4}>
+                  <img className='logo_fly' src = {logo} alt = 'hexa_img'/>
+                  </Grid>
                 </div>
             </div>
         </div>

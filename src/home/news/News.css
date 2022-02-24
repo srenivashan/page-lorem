@@ -2,7 +2,11 @@
   width: 100%;
   height: 300px;
   align-items: center;
-  background-color: #D4DD84;
+  background-color: #d4dd84;
+}
+
+.carousel {
+  /* margin-top: 50%; */
 }
 
 .news {
@@ -10,7 +14,7 @@
   margin-top: auto;
 }
 .new_head {
-  color: #66AE03;
+  color: #66ae03;
   margin-right: 10%;
   margin-left: 10%;
   padding-top: 50px;
@@ -20,6 +24,7 @@
 .paras {
   margin-right: 10%;
   margin-left: 10%;
+  margin-bottom: 3%;
   display: flex;
   justify-content: space-around;
 }

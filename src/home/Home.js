@@ -15,9 +15,7 @@ function Home() {
             <div className='home_container'>
                 <div className='homelook'>
                 <img className='home__image' src={logo} alt='HomePage_image'/>
-                <div className='home__text'>
                 <HomeText/>
-                </div>
                 </div>
                 <div className='row_home'>
                     <About/>
